@@ -118,6 +118,24 @@ export async function isAuthenticated() {
   return !!user;
 }
 
+export async function getUidByEmail(email: string): Promise<{ success: boolean; uid?: string; message?: string }> {
+  try {
+    const userRecord = await auth.getUserByEmail(email);
+
+    return {
+      success: true,
+      uid: userRecord.uid,
+    };
+  } catch (e: any) {
+    console.error("Error fetching UID by email:", e);
+
+    return {
+      success: false,
+      message: "User not found or an error occurred.",
+    };
+  }
+}
+
 export async function getLatestInterviews(
     params: GetLatestInterviewsParams
 ): Promise<Interview[] | null> {
