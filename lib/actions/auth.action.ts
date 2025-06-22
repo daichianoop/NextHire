@@ -48,7 +48,6 @@ export async function signIn(params: SignInParams) {
 
   try {
     const userRecord = await auth.getUserByEmail(email);
-    console.log(userRecord.uid);
 
     if(!userRecord) {
       return {
@@ -116,56 +115,4 @@ export async function isAuthenticated() {
   const user = await getCurrentUser();
 
   return !!user;
-}
-
-export async function getUidByEmail(email: string): Promise<{ success: boolean; uid?: string; message?: string }> {
-  try {
-    const userRecord = await auth.getUserByEmail(email);
-
-    return {
-      success: true,
-      uid: userRecord.uid,
-    };
-  } catch (e: any) {
-    console.error("Error fetching UID by email:", e);
-
-    return {
-      success: false,
-      message: "User not found or an error occurred.",
-    };
-  }
-}
-
-export async function getLatestInterviews(
-    params: GetLatestInterviewsParams
-): Promise<Interview[] | null> {
-  const { userId, limit = 20 } = params;
-
-  const interviews = await db
-      .collection("interviews")
-      .orderBy("createdAt", "desc")
-      .where("finalized", "==", true)
-      .where("userId", "!=", userId)
-      .limit(limit)
-      .get();
-
-  return interviews.docs.map((doc) => ({
-    id: doc.id,
-    ...doc.data(),
-  })) as Interview[];
-}
-
-export async function getInterviewsByUserId(
-    userId: string
-): Promise<Interview[] | null> {
-  const interviews = await db
-      .collection("interviews")
-      .where("userId", "==", userId)
-      .orderBy("createdAt", "desc")
-      .get();
-
-  return interviews.docs.map((doc) => ({
-    id: doc.id,
-    ...doc.data(),
-  })) as Interview[];
 }
