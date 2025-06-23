@@ -140,7 +140,6 @@ If you encounter any issues while setting up or running the project, consider th
 
 For any inquiries or support, feel free to reach out:
 
-- **Email**: kuganoop2005@gmail.com(mailto:your-email@example.com)
-- **GitHub**: Daichianoop(https://github.com/your-profile)
+- **GitHub**: Daichianoop
 
 This README provides a comprehensive overview of the NextHire project, including setup instructions, features, and contribution guidelines. Feel free to modify it further to suit your needs!
