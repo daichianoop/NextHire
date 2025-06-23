@@ -1,4 +1,4 @@
-# NextHire: A Job Interview Preparation Platform
+
 <img src="https://github.com/daichianoop/NextHire.ai/blob/master/public/nav.png?raw=true" alt="logo" />
 
 <div align="center">
