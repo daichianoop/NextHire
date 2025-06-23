@@ -11,31 +11,31 @@
   <h3 align="center">NextHire: A job interview preparation platform powered by Vapi AI Voice agents</h3>
 </div>
 
+
 ## 📋 <a name="table">Table of Contents</a>
 
 1. 🤖 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
+5. 📄 [Contributing](#contributing)
+6. 🛠️ [Troubleshooting](#troubleshooting)
+7. 📞 [Contact](#contact)
 
 
 ## <a name="introduction">🤖 Introduction</a>
 
-NextHire is a job interview preparation platform powered by Vapi AI voice agents. Built with **Next.js** for the user interface and backend logic, **Firebase** for authentication and data storage, and styled with **TailwindCSS**, this project demonstrates how to integrate AI models into applications. The platform offers a sleek and modern experience for job interview preparation.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+NextHire is a job interview preparation platform powered by Vapi AI voice agents. Built with **Next.js** for the user interface and backend logic, **Firebase** for authentication and data storage, and styled with **TailwindCSS**, this project demonstrates how to integrate AI models into applications. The platform offers a sleek and modern experience for job interview preparation, helping users to enhance their interview skills effectively.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Next.js
-- Firebase
-- Tailwind CSS
-- Vapi AI
-- shadcn/ui
-- Google Gemini
-- Zod
+- **Next.js**: A React framework for building server-side rendered applications.
+- **Firebase**: A platform for building web and mobile applications, providing backend services like authentication and database.
+- **Tailwind CSS**: A utility-first CSS framework for creating custom designs.
+- **Vapi AI**: AI voice agents that assist in conducting mock interviews.
+- **shadcn/ui**: A component library for building user interfaces.
+- **Google Gemini**: An AI model for generating responses and feedback.
+- **Zod**: A TypeScript-first schema declaration and validation library.
 
 ## <a name="features">🔋 Features</a>
 
@@ -53,7 +53,9 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Responsiveness**: Fully responsive design that works seamlessly across devices.
 
-and many more, including code architecture and reusability.
+👉 **Code Architecture**: Well-structured codebase for easy maintenance and scalability.
+
+👉 **Reusability**: Components designed for reusability across the application.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
@@ -116,3 +118,29 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
+## <a name="contributing">📄 Contributing</a>
+
+We welcome contributions! If you would like to contribute to NextHire, please follow these steps:
+
+- Fork the repository.
+- Create a new branch for your feature or bug fix.
+- Make your changes and commit them.
+- Push your changes to your forked repository.
+- Create a pull request.
+
+## <a name="troubleshooting">🛠️ Troubleshooting</a>
+
+If you encounter any issues while setting up or running the project, consider the following:
+
+- Ensure all environment variables are set correctly.
+- Check the console for any error messages.
+- Make sure all dependencies are installed properly.
+
+## <a name="contact">📞 Contact</a>
+
+For any inquiries or support, feel free to reach out:
+
+- **Email**: kuganoop2005@gmail.com(mailto:your-email@example.com)
+- **GitHub**: Daichianoop(https://github.com/your-profile)
+
+This README provides a comprehensive overview of the NextHire project, including setup instructions, features, and contribution guidelines. Feel free to modify it further to suit your needs!
