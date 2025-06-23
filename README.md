@@ -1,4 +1,10 @@
-# README.md for Prepwise: A Job Interview Preparation Platform
+# NextHire: A Job Interview Preparation Platform
+ <div>
+    <img src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=black" alt="next.js" />
+    <img src="https://img.shields.io/badge/-Vapi-white?style=for-the-badge&color=5dfeca" alt="vapi" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-Firebase-black?style=for-the-badge&logoColor=white&logo=firebase&color=DD2C00" alt="firebase" />
+  </div>
 
 ## 📋 Table of Contents
 
@@ -12,7 +18,7 @@
 
 ## 🤖 Introduction
 
-Prepwise is a job interview preparation platform powered by Vapi AI voice agents. Built with **Next.js** for the user interface and backend logic, **Firebase** for authentication and data storage, and styled with **TailwindCSS**, this project demonstrates how to integrate AI models into applications. The platform offers a sleek and modern experience for job interview preparation.
+NextHire is a job interview preparation platform powered by Vapi AI voice agents. Built with **Next.js** for the user interface and backend logic, **Firebase** for authentication and data storage, and styled with **TailwindCSS**, this project demonstrates how to integrate AI models into applications. The platform offers a sleek and modern experience for job interview preparation.
 
 
 ## ⚙️ Tech Stack
@@ -113,8 +119,3 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 - **Generate feedback prompt** (`lib/actions/general.action.ts`)
 - **Display feedback** (`app/(root)/interview/[id]/feedback/page.tsx`)
 - **Dummy Interviews**
-
-
-## 🔗 Assets
-
-Public assets used in the project can be found [here](#).
